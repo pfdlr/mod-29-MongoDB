@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 mongoose.Promise = global.Promise;
+/* fix deprecation warnings */
 mongoose.connect('mongodb+srv://pfdlr:pfdlr@cluster0-wkahs.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true, 
     useUnifiedTopology: true, 

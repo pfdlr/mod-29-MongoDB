@@ -22,6 +22,8 @@ lib-cov
 coverage
 *.lcov
 
+damp-badlands-81272/
+
 # nyc test coverage
 .nyc_output
 
@@ -87,5 +89,3 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
-
-damp-badlands-81272/
